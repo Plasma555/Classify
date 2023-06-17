@@ -15,7 +15,7 @@ The model's architecture consists of 50 layers, including convolutional layers, 
 Training
 The model was trained using a supervised learning approach. 
 The dataset was split into training and validation sets to monitor the model's performance during training and prevent overfitting. 
-The training process involved optimizing the model's parameters using stochastic gradient descent (SGD) with momentum. The learning rate was adjusted dynamically using a learning rate scheduler to improve convergence.
+The learning rate was adjusted dynamically using a learning rate scheduler to improve convergence.
 
 Evaluation
 The trained ResNet-50 model was evaluated using the validation set to assess its classification accuracy and generalization capabilities. Performance metrics such as accuracy, precision, recall, and F1 score were calculated to measure the model's effectiveness in classifying marine fish species.
