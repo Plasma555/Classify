@@ -18,7 +18,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model = load_model(os.path.join('/Users/divyaarajendran/Desktop/Trail' , 'model.hdf5'))
+model = load_model(os.path.join(os.getcwd(), 'model.hdf5'))
 
 
 ALLOWED_EXT = set(['jpg' , 'jpeg' , 'png' , 'jfif'])
