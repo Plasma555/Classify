@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jun  3 00:11:39 2023
 
-@author: divyaarajendran
 """
 import os
 import uuid
